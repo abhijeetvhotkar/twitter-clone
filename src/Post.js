@@ -26,15 +26,17 @@ function Post({
                     <div className="post__header">
                         <div className="post__headerText">
                             <h3>
-                                Abhijeet Vhotkar {" "} <span><VerifiedUserIcon className="post__badge"/></span>
+                                Abhijeet Vhotkar {" "} <span className="post__headerSpecial">
+                                <VerifiedUserIcon className="post__badge"/>
+                                </span>
                             </h3>
                         </div>
-                        <div className="post_headerDescription">
+                        <div className="post__headerDescription">
                             <p>This is a Twitter Clone</p>
                         </div>
                     </div>
-                    <img src="https://picsum.photos/200/200"/>
-                    <div className="post_footer">
+                    <img src="https://picsum.photos/500/500" alt=""/>
+                    <div className="post__footer">
                         <ChatBubbleOutlineIcon fontSize="small"/>
                         <RepeatIcon fontSize="small"/>
                         <FavoriteBorderIcon fontSize="small"/>
